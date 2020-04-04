@@ -9,7 +9,20 @@
 p{
     color: gray;
 }
+/* navber css code */
+.nv-color{
+    background-color: #1561648f;
+}
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: none;
+}
 /* carusel part css code */
 .buy-now-button{
     background-color: black;
