@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-bottom: 100px;
+}
+p{
+    color: gray;
+}
+
+/* carusel part css code */
+.buy-now-button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+}
+
+.carousel-indicators li{
+	background-color: #20C8DD;
+}
+
+/* smartphone part css code */
+a{
+    text-decoration: none;
+    color: orange;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration: none;
+    color: orange;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.pad-div{
+    padding-bottom: 20px;
+}
+.price-pad{
+    padding-bottom: 10px;
+}
+
+/* Categories part css code */
+
+.cat-sty{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+.border-cat{
+    border-bottom: 6px solid orange;
+    width: 10%;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.bg-img-shadw{
+    padding: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    background-color: white;
+    margin :20px;
+}
+.img-cat-sty{
+    width: 550px;
+}
+
+/* contact section css code*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:  #0f0f0f;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:black;
+  }
+
+  /* footer part css code */
+  footer{
+      text-align: center;
+      padding-bottom: 10px;
+  }
